@@ -1,0 +1,302 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+    footer{
+        background-color: rgb(235, 234, 234);
+        padding-top: 2% 0%;
+        .footer-container{
+            width: 90%;
+            margin: auto;
+            .footer-row{
+                .footer-col1{
+                    display:flex ;
+                    flex-wrap: wrap;
+                    .footer-col1-card1{
+                        // width: 50%;
+                        h4{
+                            padding: 2% 0%;
+                        }
+                        .footer-card1-readpara{
+                            padding: 1% 0%;
+                            font-size: 1em;
+                            color: rgb(103, 102, 102);
+                            span{
+                                text-decoration: underline;
+                                cursor: pointer;
+                            }
+                        }
+                        .footer-col1-content{
+                            display: flex;
+                            flex-wrap: wrap;
+                            .footer-col1-content-para{
+                                
+                                // width: 20%;
+                                p{
+                                    font-size: 0.9em;
+                                    color: rgb(103, 102, 102);
+                                    padding: 1% 0%;  
+                                }
+                            }
+                        }
+                        .footer-col1-links{
+                            display: flex;
+                            flex-wrap: wrap;
+                            padding: 8% 0%;
+                        }
+                    }
+                    .footer-col1-card2{
+                        // width: 50%;
+                        h4{
+                            padding: 3% 0%;
+                        }
+                        .footer-col2-content{
+                            display: flex;
+                            flex-wrap: wrap;
+                            .footer-col2-content-para{
+                                // width: 25%;
+                                p{
+                                    font-size: 0.8em;
+                                    color: rgb(103, 102, 102);
+                                    padding: 2% 0%; 
+                                }
+                            }
+                        }
+                        .footer-col2-content2{
+                            display: flex;
+                            flex-wrap: wrap;
+                            .footer-col2-content2-para{
+                                // width: 33.33%;
+                                p{
+                                    font-size: 0.9em;
+                                    color: rgb(103, 102, 102);
+                                    padding: 2% 0%; 
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        .footer-col2{
+            padding: 1.5% 0%;
+            background-color: rgb(209, 208, 208);
+                  
+            .footer-col2-head{
+                display: flex;
+                flex-wrap: wrap;
+                // justify-content: space-between;
+                
+                width: 90%;
+                margin: auto;
+                p{
+                    // width:10%;
+                
+                color: rgb(62, 61, 61);
+                }
+            }
+        }
+        .footer-col3{
+            padding: 1.5% 0%;
+            width: 90%;
+            margin: auto;
+            p{
+                
+                color: rgb(77, 76, 76);
+                font-size: 0.8em;
+                }
+        }
+        .footer-col4{
+            padding: 1% 0%;
+           
+            background-color: rgb(47, 47, 47);
+            p{
+                width: 90%;
+                margin: auto;
+                color: white;
+                font-size: 0.8em;
+                }
+        }
+    }
+}
+
+@media(min-width:320px){
+    footer{
+        .footer-container{
+            .footer-row{
+                .footer-col1{
+                    .footer-col1-card1{
+                        width:100%;
+                        .footer-col1-content{
+                            
+                            .footer-col1-content-para{
+                                width: 50%;
+                            }
+                        }
+                        
+                    }
+                    .footer-col1-card2{
+                        width:100%;
+                        .footer-col2-content{
+                           
+                            .footer-col2-content-para{
+                                width:50%
+                                }
+                            }
+                        .footer-col2-content2{
+                            
+                            .footer-col2-content2-para{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-col2{
+          
+                  
+            .footer-col2-head{
+                
+                p{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+@media(min-width:660px){
+    footer{
+        .footer-container{
+            .footer-row{
+                .footer-col1{
+                    .footer-col1-card1{
+                        width: 100%;
+                        .footer-col1-content{
+                            
+                            .footer-col1-content-para{
+                                width: 25%;
+                            }
+                        }
+                    }
+                    .footer-col1-card2{
+                        width:100%;
+                        .footer-col2-content{
+                           
+                            .footer-col2-content-para{
+                                width:25%
+                                }
+                            }
+                            .footer-col2-content2{
+                            
+                            .footer-col2-content2-para{
+                                width: 33.33%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-col2{
+          
+                  
+            .footer-col2-head{
+                
+                p{
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
+@media(min-width:1000px){
+    footer{
+        .footer-container{
+            .footer-row{
+                .footer-col1{
+                    .footer-col1-card1{
+                        width: 50%;
+                        .footer-col1-content{
+                            
+                            .footer-col1-content-para{
+                                width: 25%;
+                            }
+                        }
+                    }
+                    .footer-col1-card2{
+                        width:50%;
+                        .footer-col2-content{
+                           
+                            .footer-col2-content-para{
+                                width:33.33%
+                                }
+                            }
+                            .footer-col2-content2{
+                            
+                            .footer-col2-content2-para{
+                                width: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-col2{
+          
+                  
+            .footer-col2-head{
+                
+                p{
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+@media(min-width:1100px){
+    footer{
+        .footer-container{
+            .footer-row{
+                .footer-col1{
+                    .footer-col1-card1{
+                        width: 50%;
+                        .footer-col1-content{
+                            
+                            .footer-col1-content-para{
+                                width: 20%;
+                            }
+                        }
+                    }
+                    .footer-col1-card2{
+                        width:50%;
+                        .footer-col2-content{
+                           
+                            .footer-col2-content-para{
+                                width:25%
+                                }
+                            }
+                            .footer-col2-content2{
+                            
+                            .footer-col2-content2-para{
+                                width: 33.33%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-col2{
+          
+                  
+            .footer-col2-head{
+                
+                p{
+                    width: 15%;
+                }
+            }
+        }
+    }
+}

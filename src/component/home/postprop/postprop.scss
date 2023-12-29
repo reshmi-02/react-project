@@ -1,0 +1,84 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+    .post-section {
+        background-color: rgb(250, 249, 247);
+        padding: 2%;
+
+        .post-container {
+            width: 90%;
+            margin: auto;
+            padding: 2% 2%;
+            background-color: #fff8e2;
+            border-radius: 10px;
+
+            .post-row {
+                display: flex;
+                justify-content: space-between;
+
+                .post-col {
+                    .post-para1 {
+                        color: #303030;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 34px;
+
+                        span {
+                            font-family:Damion;
+                            font-size: 40px;
+                        }
+                    }
+
+                    .post-para2 {
+                        color: #303030;
+                        font-size: 16px;
+                        font-weight: 400;
+                        padding-top: 6px;
+                    }
+                }
+                .post-col2{
+                   
+                    width: 19%;
+                    .post-btn{
+                        background-color: rgb(255, 208, 0);
+                        border-radius: 50px;
+                        height: 45px;
+                        padding: 0% 2%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .post-btn-para{
+                            padding-right: 6%;
+                            font-weight: bold;
+                            color: rgb(49, 49, 49);
+                        }
+                        .post-btn-para2{
+                            background-color: white;
+                            padding: 0.5% 2%;
+                            border-radius: 8px;
+                            font-size: 0.8em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:320px){
+    .post-section{
+        display:none;
+    }
+}
+@media(min-width:660px){
+    .post-section{
+        display:none;
+    }
+}
+@media(min-width:1000px){
+    .post-section{
+        display:block;
+    }
+}

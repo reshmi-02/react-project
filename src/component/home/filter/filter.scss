@@ -1,0 +1,409 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    .filter-section {
+        background-color: rgb(250, 249, 247);
+        padding: 2% 0%;
+        .filter-container {
+            width: 90%;
+            margin: auto;
+            .filter-prop {
+                display: flex;
+                border-bottom: 1px solid silver;
+                .filter-property {
+                    padding: 0% 1%;
+                    width: 15%;
+                    text-align: center;
+                    
+                    p {
+                        background-color: white;
+                        padding: 5% 0%;
+                        font-weight: bold;
+                        border-top: 1px solid silver;
+                        border-right: 1px solid silver;
+                        border-left: 1px solid silver;
+                        border-bottom: 3px solid red;
+                        border-radius: 10px 10px 0px 0px;
+                    }
+
+                    }
+                    .filter-agent {
+                        padding: 0% 1%;
+                        width: 15%;
+                        text-align: center;
+    
+                        p {
+                            background-color: white;
+                            padding: 5% 0%;
+                            color: rgb(111, 109, 109);
+                            border-top: 1px solid silver;
+                            border-right: 1px solid silver;
+                            border-left: 1px solid silver;
+                            border-bottom: 3px solid white;
+                            border-radius: 10px 10px 0px 0px;
+                        }
+                    }
+            }
+
+            .filter-row {
+
+                width: 80%;
+                .filter-head {
+                    padding: 1% 0%;
+
+                    p {
+                        color: rgb(87, 86, 86);
+                        font-size: 1.5em;
+                    }
+                }
+                .filter-col {
+                    padding: 2% 0%;
+                    .filter-inner-col {
+                        display: flex;
+                        background-color: white;
+                        box-shadow: 0px 0px 3px silver;
+                        .filter-card {
+                            padding: 2%;
+                            
+                            width: 80%;
+                            display: flex;
+                            flex-wrap: wrap;
+                            .filter-card1 {
+                                width: 25%;
+                                .filter-image {
+                                    width: 100%;
+                                    height: 110px;
+
+                                    img {
+                                        width: 100%;
+                                        height: 100%;
+                                        border-radius: 10px;
+                                    }
+                                }
+                                p {
+                                    padding: 1% 0%;
+                                    color: rgb(97, 95, 95);
+                                }
+                            }
+                            .filter-card2 {
+                                width: 75%;
+                                padding: 0% 2%;
+                                .filter-card2-head {
+                                    color: rgb(87, 86, 86);
+                                    font-weight: 400;
+                                }
+
+                                .filter-card2-content {
+                                    padding: 2% 0%;
+                                    .filter-card2-contentdetail {
+                                        display: flex;
+                                        background-color: rgb(249, 247, 247);
+                                        .filter-card2-detail {
+                                            width: 95%;
+                                            padding: 1%;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            .filter-card2-area {
+                                                width: 33.33%;
+                                                display: flex;
+                                                padding: 1% 1%;
+
+                                                .filter-card2-area-detail {
+                                                    p {
+                                                        font-size: 0.9em;
+
+                                                        color: rgb(111, 110, 110);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .filter-card2-icon {
+                                            width: 5%;
+                                            background-color: rgb(238, 234, 234);
+
+                                            display: flex;
+                                            padding-top: 3%;
+                                            justify-content: center;
+                                        }
+                                    }
+                                }
+                                .filter-card2-direction {
+                                    color: rgb(99, 98, 98);
+                                    font-size: 1em;
+                                }
+                            }
+                        }
+                    }
+                    .filter-card3 {
+                        width: 20%;
+                        background-color: rgb(247, 245, 245);
+                        padding: 2%;
+                        text-align: center;
+
+                        p {
+                            padding: 2%;
+                            color: rgb(101, 101, 101);
+                            text-decoration: underline;
+                        }
+
+                        .filter-card3-btn {
+                            padding: 5% 3%;
+
+                            button {
+                                background-color: rgb(190, 9, 9);
+                                border: 1px solid transparent;
+                                border-radius: 50px;
+                                height: 40px;
+                                width: 80%;
+                                text-align: center;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media(min-width:320px){
+.filter-section{
+    .filter-container{
+        display: none;
+    }
+    .responsive-prop-section{
+        display: block;
+        background-color: rgb(236, 234, 234);
+   
+        .responsive-prop-head{
+            padding-bottom: 1% ;
+            .responsive-prop-inner-head{
+                padding: 3% 2%;
+                background-color: white;
+                p{
+                    padding: 2% 0%;
+                }
+                .responsive-prop-line{
+                    width: 10%;
+                    height: 3px;
+                    background-color: orange;
+                }
+            }
+        }
+        .responsive-prop-container{
+            .responsive-prop-col{
+                padding-bottom: 3%;
+                .responsive-prop-card{
+                    padding: 1% 3%;
+                    background-color: white;
+                    border-top: 2px solid skyblue;
+                    .responsive-prop-content{
+                        display: flex;
+                        padding-top: 4%;
+                        .responsive-prop-image{
+                            width: 35%;
+                            height: 125px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 5px;
+                            }
+                        }
+                        .responsive-prop-content-detail{
+                            width: 65%;
+                            padding-left: 2%;
+                            .responsive-prop-para1{
+                                font-size: 1.1em;
+                            }
+                            .responsive-prop-para2{
+                                padding: 3% 0%;
+                                font-size: 0.9em;
+
+                                color: rgb(111, 110, 110);
+                            }
+                            .responsive-prop-content-inner-detail{
+                                display: flex;
+                                padding: 1% 0%;
+                                .responsive-prop-detail-area{
+                                    width: 50%;
+                                    padding: 1% 0%;
+                                    .responsive-prop-para3{
+                                        font-size: 0.9em;
+
+                                     color: rgb(111, 110, 110);
+                                    }
+                                    p{
+                                        font-size: 0.9em;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                   
+                }
+                .responsive-prop-btn{
+                    padding: 3% 0%;
+                    background-color: rgb(213, 238, 248);
+                    display: flex;
+                    text-align: center;
+                    
+                    .responsive-prop-btn1{
+                        width: 50%;
+                       p{
+                        padding: 1% 0%;
+                        width: 80%;
+                        margin: auto;
+                        background-color: white;
+                        padding: 3% 4%;
+                        border: 1px solid red;
+                        color: rgb(156, 17, 17);
+                        border-radius: 50px;
+                       }
+                    }
+                    .responsive-prop-btn2{
+                        width: 50%;
+                        p{
+                            
+                                padding: 1% 0%;
+                                width: 80%;
+                                margin: auto;
+                                background-color: rgb(156, 17, 17);;
+                                padding: 3% 4%;
+                                
+                                color: white;
+                                border-radius: 50px;
+                               
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+}
+@media(min-width:660px){
+    .filter-section{
+        .filter-container{
+            display: none;
+        }
+        .responsive-prop-section{
+            display: block;
+            .responsive-prop-head{
+                padding-bottom: 1% ;
+                .responsive-prop-inner-head{
+                    padding: 2% 2%;
+                    background-color: white;
+                    p{
+                        padding: 2% 0%;
+                    }
+                    .responsive-prop-line{
+                        width: 5%;
+                        height: 3px;
+                        background-color: orange;
+                    }
+                }
+            }
+            .responsive-prop-container{
+                .responsive-prop-col{
+                    padding-bottom: 3%;
+                    .responsive-prop-card{
+                        padding: 4% 3%;
+                        background-color: white;
+                        border-top: 2px solid skyblue;
+                        .responsive-prop-content{
+                            display: flex;
+                            .responsive-prop-image{
+                                width: 35%;
+                                height: 150px;
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 5px;
+                                }
+                            }
+                            .responsive-prop-content-detail{
+                                width: 65%;
+                                padding-left: 2%;
+                                .responsive-prop-para1{
+                                    font-size: 1.1em;
+                                }
+                                .responsive-prop-para2{
+                                    padding: 2% 0%;
+                                    font-size: 1em;
+
+                                    color: rgb(111, 110, 110);
+                                }
+                                .responsive-prop-content-inner-detail{
+                                    display: flex;
+                                    padding: 1% 0%;
+                                    .responsive-prop-detail-area{
+                                        width: 50%;
+                                        padding: 1% 0%;
+                                        .responsive-prop-para3{
+                                            font-size: 1em;
+
+                                         color: rgb(111, 110, 110);
+                                        }
+                                        p{
+                                            font-size: 1em;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .responsive-prop-btn{
+                        padding: 3% 0%;
+                        background-color: rgb(213, 238, 248);
+                        display: flex;
+                        text-align: center;
+                        
+                        .responsive-prop-btn1{
+                            width: 50%;
+                           p{
+                            padding: 1% 0%;
+                            width: 80%;
+                            margin: auto;
+                            background-color: white;
+                            padding: 3% 4%;
+                            border: 1px solid red;
+                            color: rgb(156, 17, 17);
+                            border-radius: 50px;
+                           }
+                        }
+                        .responsive-prop-btn2{
+                            width: 50%;
+                            p{
+                                
+                                    padding: 1% 0%;
+                                    width: 80%;
+                                    margin: auto;
+                                    background-color: rgb(156, 17, 17);;
+                                    padding: 3% 4%;
+                                    
+                                    color: white;
+                                    border-radius: 50px;
+                                   
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:1000px){
+    .filter-section{
+        .filter-container{
+            display: block;
+        }
+        .responsive-prop-section{
+            display: none;
+        }
+    }
+}

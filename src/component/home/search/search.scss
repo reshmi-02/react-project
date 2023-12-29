@@ -1,0 +1,507 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+    .search-section {
+        background-color: rgb(250, 249, 247);
+        padding: 3% 0%;
+        .search-container{
+            width:65%;
+            margin: auto;
+        
+            position: relative;
+            .search-row{
+                text-align: center;
+                .search-head{
+                    font-size: 2em;
+                    
+                }
+                .search-content{
+                    padding-top: 4%;
+                    padding-bottom: 2%;
+                    width: 70%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-around;
+
+                    p{
+                        font-size: 1.2em;
+                        padding-bottom: 1%;
+                        cursor: pointer;
+                    }
+                    .search-content-buy{
+                        border-bottom: 3px solid rgb(212, 65, 65);
+
+                    }
+                    
+                    p:hover {
+                        border-bottom: 3px solid rgb(212, 65, 65);
+
+                    }
+                   
+                }
+                .search-search{
+                    padding: 2% 0%;
+                    
+                    .inner-search{
+                        border: 1px solid rgb(118, 117, 117);
+                        border-radius: 50px;
+                        display: flex;
+                        padding: 1% 1%;  
+                        .search-location{
+                            width: 30%;
+                            display: flex;
+                            padding: 1% 0%;
+                            .search-location-icon{
+                                color: rgb(225, 66, 66);
+                                padding-right: 3%;
+                                font-size: 1.8em;
+                                padding-bottom: 1%;
+                            }
+                            .search-chennai{
+                                background-color: #e8cece;
+                                padding: 2% 5%;
+                                border-radius: 50px;
+                            }
+                            .search-more{
+                                color: rgb(105, 104, 104);
+                                padding-left: 3%;
+                            }
+                        }
+                        .search-flat{
+                            width: 25%;
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 1% 2%;
+                            border-right: 1px solid silver;
+                            border-left: 1px solid silver;
+                            
+                            .search-flat-content{
+                                display: flex;
+                                .search-flat-content-icon{
+                                    color: rgb(225, 66, 66);
+                                    font-size: 1.8em;
+                                    padding-right: 3%;
+                                    width:20%;
+                                    padding-bottom: 2%;
+                                }
+                                // p{
+                                //     color: rgb(105, 104, 104);
+                                // }
+                                input{
+                                    width: 80%;
+                                    background-color: transparent;
+                                    border: 1px solid transparent;
+                                    color: rgb(105, 104, 104);
+                                    
+                                }
+                            }
+                            .search-flat-icon{
+                                .search-flat-inner-icon{
+                                    color: rgb(105, 104, 104);
+                                }
+                            }
+                        }
+                        .search-price{
+                            width: 25%;
+                            justify-content: space-between;
+                            padding: 1%% 2%;
+                            display: flex;
+                           
+                            .search-price-content{
+                                display: flex;
+                                .search-price-content-icon{
+                                    color: rgb(225, 66, 66);
+                                    font-size: 1.5em;
+                                    padding-right: 3%;
+                                  
+                                    width: 20%;
+                                }
+                                // p{
+                                //     color: rgb(105, 104, 104);
+                                // }
+                                input{
+                                    width: 80%;
+                                    background-color: transparent;
+                                    border: 1px solid transparent;
+                                    color: rgb(105, 104, 104);
+                                   
+                                }
+                            }
+                            .search-price-icon{
+                                .search-price-inner-icon{
+                                    color: rgb(105, 104, 104);
+                                }
+                            }
+                            
+                        }
+                        .search-searchname{
+                            width: 20%;
+
+                           button{
+                            height: 100%;
+                            width: 90%;
+                            background-color: rgb(199, 51, 51);
+                            color: white;
+                            padding: 1% 3%;
+                            border-radius: 50px;
+                            border: 1px solid transparent;
+                            font-size: 1.1em;
+                            font-weight: bold;
+                           }
+                            
+                        }
+                    }
+                }
+            }
+
+            .flat-section{
+                background-color: rgb(250, 249, 247);
+                width: 65%;
+                border: 1px solid silver;
+                padding: 2% 3%;
+                position: absolute;
+                top:92%;
+                left:30%;
+                .flat-container{
+                    .flat-residential{
+                        padding: 2% 0%;
+                        p{
+                            color: rgb(80, 80, 80);
+                            
+                        }
+                        .flat-residential-content{
+                            display: flex;
+                            padding: 2% 0%;
+                            .flat-villa{
+                                text-align: center;
+                                width:25%;
+                               padding: 0% 2%;
+                                p{
+                                border: 1px solid silver;
+                                border-radius: 20px;
+                                padding: 5% 1%;
+                                }
+                            }
+                        }
+                        .flat-residential-bhk{
+                            display:flex;
+                            padding: 2% 0%;
+                            // justify-content: space-between;
+                            .flat-bhk{
+                                text-align: center;
+                               padding: 0% 2%;
+                               width: 16%;
+                                p{
+                                    border: 1px solid silver;
+                                    border-radius: 20px;
+                                    padding: 5% 1%;
+                                   
+                                    }
+                               
+                            }
+                        }
+                    }
+                    .flat-commercial{
+                        padding: 2% 0%;
+                        p{
+                            color: rgb(80, 80, 80);
+                        }
+                    }
+                    .flat-other-property{
+                        padding: 2% 0%;
+                        p{
+                            color: rgb(80, 80, 80);
+                        }
+                    }
+                }
+            }
+
+
+            .price-section{
+                background-color: rgb(250, 249, 247);
+                border: 1px solid silver;
+                padding: 1%;
+                position: absolute;
+                top:92%;
+                left: 55%;
+                width: 30%;
+                // height: 50%;
+                .price-container{
+                    .min-max-price{
+                        height:280px;
+                        overflow: auto;
+                        display: flex;
+                        justify-content: space-around;
+                        .min-price{
+                            
+                            input{
+                                width:80%;
+                                text-align: center;
+                                font-size: 1em;
+                                color: rgb(77, 76, 76);
+                                padding: 5% 1%;
+                                border: 1px solid silver;
+                                border-radius: 20px;
+                            }
+                            div{
+                                div{
+                                    p{
+                                        color: rgb(77, 76, 76);
+                                        padding-top: 1%;
+                                        padding-bottom: 1%;
+                                        padding-left: 20%;
+                                    }
+                                }
+                            }
+                        }
+                        .max-price{
+                          
+                            input{
+                                width:80%;
+                                text-align: center;
+                                font-size: 1em;
+                                color: rgb(77, 76, 76);
+                                padding: 5% 1%;
+                                border: 1px solid silver;
+                                border-radius: 20px;
+                            }
+                            div{
+                                div{
+                                    p{
+                                        color: rgb(77, 76, 76);
+                                        padding-top: 1%;
+                                        padding-bottom: 1%;
+                                        padding-left: 20%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media(min-width:320px){
+    div{
+        .search-section{
+            .search-container{
+                display: none;
+            }
+            
+        }
+        .responsive-search-section{
+            background-color: rgb(250, 249, 247);
+            display: block;
+            padding: 2% 0%;
+            .responsive-search-container{
+                width: 90%;
+                margin: auto;
+             
+                text-align: center;
+                .responsive-search-head{
+                    color: rgb(77, 76, 76);
+                    padding: 1% 0%;
+                    font-size: 1.3em;
+                }
+                .responsive-search-content{
+                   
+                    padding-top: 4%;
+                    padding-bottom: 2%;
+                    font-size: 1.1em;
+                    width: 100%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-around;
+                    .responsive-search-content-buy{
+                        color: rgb(49, 49, 49);
+                        padding-bottom: 1%;
+                        font-weight: 500;
+                        border-bottom: 2px solid rgb(158, 7, 7);
+                    }
+                    p{
+                        color: rgb(49, 49, 49);
+                        padding-bottom: 1%;
+                        font-weight: 500;
+                    }
+                }
+                .responsive-search-search{
+                    padding: 6% 0%;
+                    .responsive-inner-search{
+                        border: 1px solid silver;
+                        border-radius: 50px;
+                        box-shadow: 0px 0px 10px  silver;
+                        display: flex;
+                        padding: 2% 3%;
+                        justify-content: center;
+                        align-items: center;
+                        .responsive-inner-search-content{
+                            width:83%;
+                            display: flex;
+                            text-align: center;
+                            .responsive-search-location-icon{
+                                color: rgb(141, 3, 3);
+                                padding-right: 1%;
+                                font-size: 1.3em;
+                            }
+                            p{
+                                color: rgb(77, 76, 76);
+                                
+                                font-size: 0.9em;
+                            }
+                        }
+                        .responsive-inner-search-search{
+                           width: 17%;
+                           height: 50px;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                           background-color: rgb(141, 3, 3);
+                            border-radius: 50px;
+                            // padding: 3% 0%;
+                            // height: 100%;
+                            // background-color: red;
+                            .responsive-search-icon{
+                                color: white;
+                           height: 100%;
+                           
+                           font-size: 1.4em;
+                           
+                          
+
+                                // background-color: rgb(141, 3, 3);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:660px){
+    div{
+        .search-section{
+            .search-container{
+                display: none;
+            }
+            
+        }
+        .responsive-search-section{
+            background-color: rgb(250, 249, 247);
+            display: block;
+            padding: 2% 0%;
+            .responsive-search-container{
+                width: 90%;
+                margin: auto;
+                text-align: center;
+                .responsive-search-head{
+                    color: rgb(77, 76, 76);
+                    padding: 1% 0%;
+                    font-size: 1.5em;
+                }
+                .responsive-search-content{
+                   
+                    padding-top: 4%;
+                    padding-bottom: 2%;
+                    width: 60%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-around;
+                    .responsive-search-content-buy{
+                        color: rgb(49, 49, 49);
+                        padding-bottom: 1%;
+                        font-weight: 500;
+                        border-bottom: 2px solid rgb(158, 7, 7);
+                    }
+                    p{
+                        color: rgb(49, 49, 49);
+                        padding-bottom: 1%;
+                        font-weight: 500;
+                    }
+                }
+                .responsive-search-search{
+                    padding: 6% 0%;
+                    .responsive-inner-search{
+                        border: 1px solid silver;
+                        border-radius: 50px;
+                        box-shadow: 0px 0px 10px  silver;
+                        display: flex;
+                        padding: 2% 3%;
+                        justify-content: center;
+                        align-items: center;
+                        .responsive-inner-search-content{
+                            width:92%;
+                            display: flex;
+                            text-align: center;
+                            .responsive-search-location-icon{
+                                color: rgb(141, 3, 3);
+                                padding-right: 1%;
+                                font-size: 1.7em;
+                            }
+                            p{
+                                color: rgb(77, 76, 76);
+                                
+                                font-size: 1.2em;
+                            }
+                        }
+                        .responsive-inner-search-search{
+                            width: 8%;
+                           height: 50px;
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+                            background-color: rgb(141, 3, 3);
+                            border-radius: 50px;
+                            // padding: 3% 0%;
+                            // height: 100%;
+                            // background-color: red;
+                            .responsive-search-icon{
+                                color: white;
+                           height: 100%;
+                           
+                           font-size: 1.4em;
+                           
+                          
+
+                                // background-color: rgb(141, 3, 3);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:1000px){
+    div{
+        .search-section{
+            .search-container{
+                display: block;
+            }
+            
+        }
+        .responsive-search-section{
+            display: none;
+        }
+    }
+}
+
+
+@media(min-width:1100px){
+    div{
+        .search-section{
+            .search-container{
+                display: block;
+            }
+            
+        }
+        .responsive-search-section{
+            display: none;
+        }
+    }
+}

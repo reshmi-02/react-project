@@ -1,0 +1,199 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    // .navbar-section{
+    //     display: none;
+    // }
+    .resfilter-section{
+        background-color: rgb(250, 249, 247);
+        padding: 3% 0%;
+        height: 100vh;
+        .resfilter-container{
+           
+            .resfilter-row1{
+                width: 90%;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                .resfilter-row1-filter{
+                    display: flex;
+                    
+                    padding: 2% 0%;
+                    .resfilter-row1-para1{
+                        color: rgb(56, 56, 56);
+                        font-size: 1.1em;
+                    }
+                    .resfilter-row1-para2{
+                        color: rgb(83, 82, 82);
+                        
+                    }
+                }
+                p{
+                    color: red;
+                    
+                }
+            }
+            .resfilter-row2{
+                border-bottom: 1px solid silver;
+                .resfilter-inner-row2{
+                    width: 80%;
+                    margin: auto;
+                    display: flex;
+                    .resfilter-row2-filter{
+                        width: 25%;
+                       
+                       
+                        p{
+                            padding: 15% 0%;
+                            color: rgb(58, 58, 58);
+                            height: 100%;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            .resfilter-row4{
+                width: 90%;
+                margin: auto;
+                padding: 5% 0%;
+                h4{
+                    padding: 2%;
+                    color: rgb(75, 74, 74);
+                }
+                .resfilter-inner-row4{
+                    display: flex;
+                    padding: 2%;
+                    .resfilter-row4-price{
+                        width: 45%;
+                        margin: auto;
+                        position: relative;
+                        height: 35px;
+                            input{
+                                width: 100%;
+                                height: 100%;
+                                padding-left: 3%;
+                                font-size: 0.9em;
+                                color: rgb(88, 88, 88);
+                                border-radius: 10px;
+                                border: 1px solid silver;
+                                background-color: transparent;
+                            }
+                        
+                        
+                        i{
+                            position: absolute;
+                            top: 15%;
+                            right: 5%;
+                        }
+                        .resfilter-row4-pricechange{
+                            width: 100%;
+                            height: 300px;
+                            overflow: auto;
+                            background-color: white;
+                            padding: 10%;
+                            border: 1px solid silver;
+                            border-radius: 10px;
+                            div{
+                                padding: 2% 0%;
+                                p{
+                                    width: 100%;
+                                    color:rgb(88, 88, 88) ;
+                                }
+                            } 
+                        }
+                    }
+                    p{
+                        width: 10%;
+                        text-align: center;
+                    }
+                }
+            }
+            .resfilter-row5{
+                width: 90%;
+                margin: auto;
+                padding: 5% 0%;
+                h4{
+                    padding: 2%;
+                    color: rgb(75, 74, 74);
+                }
+                .resfilter-inner-row5{
+                    display: flex;
+                    .resfilter-flat-villa{
+                        padding-right: 2%;
+                        width: 33.33%;
+                        .resfilter-flat-card{
+                            width: 100%;
+                            height: 100%;
+                            height: 100px;
+                            text-align: center;
+                            padding: 15% 0%;
+                            border: 1px solid silver;
+                            border-radius: 10px;
+                            .resfilter-flat-icon{
+                                font-size: 1.5em;
+                                color: rgb(75, 74, 74);
+                                
+                            }
+                            .resfilter-true-icon{
+                                display: flex;
+                                justify-content: flex-end;
+                                color: #009681;
+                            }
+                        }
+                    }
+                }
+            }
+            .resfilter-row6{
+                width: 90%;
+                margin: auto;
+                padding: 5% 0%;
+                h4{
+                    padding: 2%;
+                    color: rgb(75, 74, 74);
+                }
+                .resfilter-inner-row6{
+                    display: flex;
+                    // max-height: 120px;
+                    flex-wrap: wrap;
+                    // overflow-x: auto;
+                    .resfilter-row6-flat-bhk{
+                        width: 33.33%;
+                        // min-height: 110px;
+                        padding: 1%;
+                        div{
+                            width: 100%;
+                            
+                            padding: 4% 0%;
+                            border: 1px solid silver;
+                            display: flex;
+                            justify-content: space-around;
+                            border-radius: 50px;
+                        }
+                    }
+                }
+                
+            }
+            .resfilter-row7{
+                width: 90%;
+            margin: auto;
+            padding: 5% 0%;
+            .resfilter-row7-btn{
+                width: 100%;
+                text-align: center;
+                background-color: rgb(190, 6, 6);
+                border-radius: 50px;
+                padding: 4% 0%;
+                p{
+                    color: white;
+                    font-size: 1.2em;
+                }
+            }
+            }
+            
+        }
+    }
+    // footer{
+    //     display: none;
+    // }
+}
